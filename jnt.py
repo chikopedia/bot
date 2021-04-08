@@ -1,9 +1,6 @@
 #!/bin/bash
 
-banner()
-{
-  printf " %-40s \n" "`python3 logo.py`"
-}
+
 banner
 
 merah='\e[91m'
