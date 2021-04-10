@@ -23,7 +23,7 @@ function request($url, $data = null, $headers = null, $showheader = null)
 
 function kirim_telegram($message)
 {
-    $token = "1676620747:AAGsXS4mEYz1Wr0uX_orF4FcvloF0O43xFU"; // Isi secret tokennya
+    $token = "1714476377:AAEUiuKAfXbYKbvsR_rnK97Sy3hiuEozQXY"; // Isi secret tokennya
     $chatIds = "1594215969"; // Isi id telegramnya
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatIds;
     $url = $url . "&text=" . urlencode($message);
