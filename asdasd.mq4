@@ -4,3 +4,4 @@
                      sOrderOp,➡😀
                      OrderSymbol(),
                      DoubleToString(OrderOpenPrice(), Digits),
+:grinning:
